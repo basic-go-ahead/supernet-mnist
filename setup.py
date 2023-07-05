@@ -8,7 +8,13 @@ setup(
     description="Experiments with SuperNet and MNIST",
     author="Vasily Goncharov",
     url="https://github.com/basic-go-ahead/supernet-mnist",
-    # install_requires=[],
+    install_requires=[
+        "tqdm",
+        "pandas>=1.5.3",
+        "matplotlib",
+        "torch>=2.0.0",
+        "torchvision>=0.15.1"
+    ],
     packages=find_packages(),
     entry_points={
         "console_scripts": [
