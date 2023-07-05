@@ -9,10 +9,9 @@ setup(
     author="Vasily Goncharov",
     url="https://github.com/basic-go-ahead/supernet-mnist",
     install_requires=[
-        "numpy>=1.23.5",
-        "tqdm>=4.64.1",
+        "tqdm",
         "pandas>=1.5.3",
-        "matplotlib>=3.6.3",
+        "matplotlib",
         "torch>=2.0.0",
         "torchvision>=0.15.1"
     ],
