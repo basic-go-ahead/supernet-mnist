@@ -53,7 +53,7 @@ class SuperNet(nn.Module):
         Параметры:
             architecture : Optional[Architecture]
                 конкретная архитектура подсети
-            sampler : Optional[Sampler]
+            sampler : Optional[Callable]
                 алгоритм сэмплирования подсетей
         """
         super(SuperNet, self).__init__()
