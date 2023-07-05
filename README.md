@@ -56,7 +56,13 @@ SuperNet (one-shot networks, концепция weight sharing) включает
 
 Хотя Epsilon-Greedy концентрируется на лидере подсетей по Top-1 Acc, он также даёт возможность другим подсетям вырваться вперёд, что важно, поскольку все подсети разделяют часть весов друг с другом.
 
-## Конфигурация пайплайна
+## Запуск эксперимента
+
+Необходимо просто запустить [тетрадку с экспериментом](notebooks/supernet-mnist.ipynb).
+
+В процессе запуска на первом этапе скачивается датасет и устанавливается пакет из этого репозитория.
+
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/github/basic-go-ahead/supernet-mnist/blob/main/notebooks/supernet-mnist.ipynb)
 
 ## Значения метрик
 
